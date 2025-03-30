@@ -9,5 +9,28 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
   ],
+  fonts: {
+    families: [
+      { name: 'Inter', provider: 'google' },
+    ],
+    processCSSVariables: true,
+  },
+  content: {
+    renderer: {
+      anchorLinks: false,
+    },
+  },
+  mdc: {
+    highlight: {
+      theme: {
+        default: 'laserwave',
+      },
+      langs: ['bash'],
+    },
+  },
+  colorMode: {
+    classSuffix: '',
+  },
 })

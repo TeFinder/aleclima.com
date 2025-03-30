@@ -9,6 +9,11 @@ published: true
 
 Dolor magna nisi nostrud culpa consectetur ea elit nulla ex elit qui nisi ad. Duis dolor consectetur excepteur cupidatat nostrud laborum commodo do qui id ullamco reprehenderit voluptate aliqua. Reprehenderit in Lorem sunt magna nulla occaecat. Reprehenderit nulla nostrud nulla in ad ad do sit reprehenderit elit occaecat esse quis anim eiusmod. Eiusmod irure adipisicing anim. Reprehenderit fugiat enim velit elit consequat veniam non in incididunt excepteur. In excepteur fugiat et nostrud ad elit in enim proident dolore occaecat ea laboris consectetur voluptate.
 
+
+```bash
+sudo apt update && sudo apt install vim
+```
+
 Occaecat et adipisicing deserunt ea pariatur sit exercitation cillum adipisicing nisi non enim do nisi. Adipisicing non eu eu irure aute nisi. Sint nostrud eiusmod cupidatat cillum in laboris enim commodo laboris elit aute dolor. Ex magna nulla veniam sit quis laborum occaecat. Laborum pariatur nostrud mollit anim veniam ipsum ipsum velit nisi ad adipisicing magna. Cupidatat non sint commodo magna ad labore minim laborum culpa laborum mollit dolor proident deserunt enim. Et voluptate consequat ut nostrud.
 
 Minim ex do nostrud officia esse excepteur excepteur ad quis duis culpa nulla. Occaecat adipisicing excepteur minim ullamco ad adipisicing ex ipsum aute et. Lorem sint magna officia. Tempor sit consectetur veniam. Nostrud dolor magna tempor aliquip. Commodo anim pariatur qui incididunt. Esse non minim veniam cupidatat velit laboris anim ipsum.
