@@ -1,75 +1,17 @@
-# Nuxt Minimal Starter
+## Alec Lima
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Icones: https://icon-sets.iconify.design/
 
-## Setup
+Vue: https://vuejs.org/
 
-Make sure to install dependencies:
+Nuxt: https://nuxt.com/
 
-```bash
-# npm
-npm install
+Content: https://content.nuxt.com/
 
-# pnpm
-pnpm install
+Nuxt Tailwind: https://tailwindcss.nuxtjs.org/
 
-# yarn
-yarn install
+Nuxt Fonts: https://fonts.nuxt.com/
 
-# bun
-bun install
-```
+Nuxt Color Mode: https://color-mode.nuxtjs.org/
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Nuxt Image: https://image.nuxt.com/
