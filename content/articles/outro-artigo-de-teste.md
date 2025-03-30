@@ -1,11 +1,11 @@
 ---
-title: Um titulo muito legal
-description: Uma descrição muito doida de mais doido
+title: Outro titulo muito legal
+description: Outra descrição muito doida de mais doido
 created_at: 29/03/2025
 published: true
 ---
 
-# Foi louco
+# Outro que Foi louco
 
 Dolor magna nisi nostrud culpa consectetur ea elit nulla ex elit qui nisi ad. Duis dolor consectetur excepteur cupidatat nostrud laborum commodo do qui id ullamco reprehenderit voluptate aliqua. Reprehenderit in Lorem sunt magna nulla occaecat. Reprehenderit nulla nostrud nulla in ad ad do sit reprehenderit elit occaecat esse quis anim eiusmod. Eiusmod irure adipisicing anim. Reprehenderit fugiat enim velit elit consequat veniam non in incididunt excepteur. In excepteur fugiat et nostrud ad elit in enim proident dolore occaecat ea laboris consectetur voluptate.
 
