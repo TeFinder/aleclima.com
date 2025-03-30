@@ -16,6 +16,26 @@ useSeoMeta({
 
 <template>
   <div class="bg-black text-zinc-50 h-screen">
+    <nav>
+      <ul>
+        <li>
+          <NuxtLink to="/">
+            Inicio
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink href="/artigos">
+            Artigos
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink href="/projetos">
+            Projetos
+          </NuxtLink>
+        </li>
+      </ul>
+    </nav>
+
     <slot />
   </div>
 </template>
