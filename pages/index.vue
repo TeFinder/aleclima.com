@@ -11,9 +11,8 @@ useSeoMeta({
   <h1>OLA ALEC LIMA ESSE É SEU SITE JOVEM</h1>
 
   <div v-for="article in articles" :key="article.id">
-      <a :href="article.path">
-        {{ article.title }}
-      </a>
+    <a :href="article.path">
+      {{ article.title }}
+    </a>
   </div>
-
 </template>

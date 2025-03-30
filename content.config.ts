@@ -11,7 +11,7 @@ export default defineContentConfig({
         description: z.string(),
         path: z.string(),
         created_at: z.string(),
-        published: z.boolean().default(false)
+        published: z.boolean().default(false),
       }),
     }),
     projects: defineCollection({

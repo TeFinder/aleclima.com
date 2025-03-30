@@ -7,7 +7,7 @@ const { data: article } = await useAsyncData(route.path, () => {
 </script>
 
 <template>
-   <Prose class="bg-black">
+  <Prose class="bg-black">
     <ContentRenderer v-if="article" :value="article" />
   </Prose>
 </template>

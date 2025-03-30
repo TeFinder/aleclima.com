@@ -4,8 +4,8 @@ useHead({
     class: 'bg-black',
   },
   htmlAttrs: {
-    lang: 'pt-br'
-  }
+    lang: 'pt-br',
+  },
 })
 
 useSeoMeta({
