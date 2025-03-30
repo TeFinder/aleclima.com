@@ -63,4 +63,6 @@ useSeoMeta({
       <slot />
     </main>
   </div>
+
+  <Footer />
 </template>
