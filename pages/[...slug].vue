@@ -16,7 +16,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <Prose>
+  <Prose class="flex justify-center">
     <ContentRenderer v-if="article" :value="article" />
   </Prose>
 </template>

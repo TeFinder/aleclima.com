@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   ],
   fonts: {
     families: [
-      { name: 'Inter', provider: 'google' },
+      { name: 'Poppins', provider: 'google' },
     ],
     processCSSVariables: true,
   },

@@ -7,7 +7,7 @@ const { data: articles } = await useAsyncData('articles', () => queryCollection(
 
 <template>
   <section>
-    <h1 class="font-semibold text-4xl text-[#323232]">
+    <h1 class="font-semibold text-4xl text-[#323232] dark:text-primary">
       Escrevendo sobre programação e coisas legais.
     </h1>
     <p class="text-xl text-[#708090]">
