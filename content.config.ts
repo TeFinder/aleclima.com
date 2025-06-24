@@ -27,5 +27,21 @@ export default defineContentConfig({
         logo: z.string(),
       }),
     }),
+    services: defineCollection({
+      type: 'data',
+      source: 'services/*.yml',
+      schema: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+    }),
+    budget: defineCollection({
+      type: 'data',
+      source: 'budget/*.yml',
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+      }),
+    }),
   },
 })
