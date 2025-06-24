@@ -55,6 +55,14 @@ useSeoMeta({
                   Projetos
                 </NuxtLink>
               </li>
+              <li>
+                <NuxtLink
+                  to="/sobre" class="text-lg hover:text-emerald-400 transition-colors duration-200"
+                  :class="{ 'text-emerald-400': route.path === '/sobre' }"
+                >
+                  Sobre mim
+                </NuxtLink>
+              </li>
             </ul>
           </nav>
         </div>
