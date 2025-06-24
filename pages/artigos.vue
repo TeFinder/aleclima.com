@@ -18,9 +18,9 @@ const { data: articles } = await useAsyncData('articles', () => queryCollection(
       Todos os meus pensamentos sobre programação e muito mais, reunidos aqui.
     </p>
   </section>
-  <div class="mt-8 grid-cols-2 grid gap-4 border-l-4 sm:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1">
+  <div class="mt-8 grid-cols-2 grid gap-4 border-l-4 xl:grid-cols-2 lg:grid-cols-2">
     <div v-for="article in articles" :key="article.id">
-      <section class="flex items-center p-8">
+      <section class="flex items-center flex-wrap p-8">
         <div class="p-8">
           <p class="text-[#708090]">
             {{ article.created_at }}
