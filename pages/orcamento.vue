@@ -13,7 +13,7 @@ const arrayValues = [
 </script>
 
 <template>
-  <section class="container flex items-center justify-center h-[60vh] flex-col">
+  <section class="container flex items-center justify-center h-[70vh] flex-col">
     <h1 class="text-4xl font-bold text-gray-800 mb-8 font-sans bg-gradient-to-r from-teal-300 to-indigo-600 bg-clip-text text-transparent">
       Solicite um orçamento personalizado
     </h1>

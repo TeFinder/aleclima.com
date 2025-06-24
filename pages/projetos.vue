@@ -19,7 +19,12 @@ const { data: projects } = await useAsyncData('projects', () => queryCollection(
         v-for="project in projects" :key="project.id"
         class="rounded-lg mt-8 hover:bg-black/5 cursor-pointer transition-all duration-200 hover:-translate-y-1"
       >
-        <div class="block p-6 h-full">
+        <div class="p-6 h-full">
+          <img
+            class="h-12 rounded-full"
+            :src="project.urlImage"
+            alt="image-project"
+          >
           <h2 class="text-xl font-semibold text-gray-800 mb-2 dark:text-primary">
             {{ project.name }}
           </h2>
@@ -28,8 +33,7 @@ const { data: projects } = await useAsyncData('projects', () => queryCollection(
           </p>
           <a :href="project.link.href" target="_blank" class="text-blue-500 flex items-center gap-2 mt-2">
             <Icon name="bi:link" />
-
-            75{{ project.link.href }}
+            {{ project.link.href }}
           </a>
         </div>
       </div>

@@ -18,6 +18,7 @@ export default defineContentConfig({
       type: 'data',
       source: 'projects/*.yml',
       schema: z.object({
+        urlImage: z.string(),
         name: z.string(),
         description: z.string(),
         link: z.object({
