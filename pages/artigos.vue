@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+useSeoMeta({
+  title: 'Alec Lima - Artigos',
+})
+
 const { data: articles } = await useAsyncData('articles', () => queryCollection('articles')
   .order('created_at', 'DESC')
   .where('published', '=', true)
@@ -7,7 +11,7 @@ const { data: articles } = await useAsyncData('articles', () => queryCollection(
 
 <template>
   <section>
-    <h1 class="font-semibold text-4xl text-[#323232] dark:text-primary">
+    <h1 class="font-semibold text-4xl text-[#323232] font-sans bg-gradient-to-r from-teal-300 to-indigo-600 bg-clip-text text-transparent">
       Escrevendo sobre programação e coisas legais.
     </h1>
     <p class="text-xl text-[#708090]">
@@ -22,7 +26,7 @@ const { data: articles } = await useAsyncData('articles', () => queryCollection(
             {{ article.created_at }}
           </p>
         </div>
-        <div class="flex flex-col hover:bg-slate-100 w-full p-4 h-full cursor-pointer gap-10">
+        <div class="flex flex-col hover:bg-slate-100/10 w-full p-4 h-full cursor-pointer gap-10">
           <a :href="article.path" class="font-bold">
             {{ article.title }}
           </a>
